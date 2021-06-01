@@ -7,6 +7,16 @@
 }
 body {
   font-family: "Lexend Deca", sans-serif;
+  margin: 0;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 95%);
+  height: 100vh;
+  padding: 0 3rem;
+  /* */
 }
 .container {
   display: flex;
@@ -39,6 +49,7 @@ body {
 .card__content {
   font-size: 15px;
   font-weight: 400;
+  margin-bottom: 4rem;
 }
 
 .card--primary {
